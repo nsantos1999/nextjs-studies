@@ -1,7 +1,7 @@
 - Geral
 
   - Menu
-    - [ ] Deverá ter duas opções cujo quais são Perguntas e Quiz
+    - [x] Deverá ter duas opções cujo quais são Perguntas e Quiz
   - Navegação
     - [ ] Utilizar React router
   - Dados sensiveis
