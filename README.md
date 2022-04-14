@@ -1,0 +1,28 @@
+- Geral
+
+  - Menu
+    - [ ] Deverá ter duas opções cujo quais são Perguntas e Quiz
+  - Navegação
+    - [ ] Utilizar React router
+  - Dados sensiveis
+    - [ ] Utilizar variavel de ambiente para armazena-las
+
+- Telas
+  - Listagem das perguntas do Quiz
+    - [ ] Deverá ser utilizado o React Query para realizar as requisições para a API
+    - [ ] As perguntas deverão estar em um contexto ( Context API ) compartilhado com o Quizz
+    - [ ] A edição, cancelamento e listagem deverám manipular e consultar os dados do banco de dados Oracle, utilizando o TYPEORM para realizar essa comunicação
+  - Formulário das perguntas do Quiz
+    - [ ] A criação deverá manipular do banco de dados Oracle, utilizando o TYPEORM para realizar essa comunicação
+    - [ ] Para fazer o formulário deverá ser utilizado o react-hook-form
+    - [ ] Todos os campos são obrigatórios e devem ter validação tanto no front quanto na API
+  - Quiz
+    - [ ] Tela unica
+    - [ ] Todas as perguntas criadas deveram estar presente no Quiz
+    - [ ] Ao concluir o quiz deverá ser aberto um modal com a seguinte regra
+    - [ ] Ao concluir o quizz deverá ser aberto um modal com a seguinte regra
+      - [ ] Se o usuário acertou a maioria das perguntas deverá ser mostrado o Modal Positivo
+      - [ ] Se o usuário acertou menos da maioria das deverá ser mostrado o Modal Negativo
+    - [ ] Quando o usuário clicar na alternativa, deverá ser verificado se ela está correta, mostrar o indicativo para o usuário, borda verde para sucesso e vermelha para erro.
+    - [ ] O botão "Prosseguir/Próxima pergunta" só deverá ser exibido após o usuário selecionar uma alternativa
+    - [ ] Ao concluir o quizz e clicar no botão de fechar o Modal, o Quizz deverá ser reiniciado.
